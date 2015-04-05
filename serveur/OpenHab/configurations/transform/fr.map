@@ -1,0 +1,8 @@
+CLOSED=closed
+OPEN=open
+undefined=unknown
+0=Eteint
+1=Ralentit
+2=Pleine Puissance
+LOW=Pas d'activité
+HIGH=Activité détéctée

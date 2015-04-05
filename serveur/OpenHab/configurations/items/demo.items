@@ -1,0 +1,26 @@
+Group All
+Group Weather 	(All)
+Group HumidityWidget 	(All)
+
+Group Weather_Chart													(Weather)
+Number Weather_Temperature 		"Température [%.1f °C]"	<temperature> (Weather_Chart) { mqtt="<[localbroker:/temperature:state:default]"}
+Number Weather_Humidex			"Indice de confort [SCALE(humidex.scale):%s]" 			(Weather)
+Number Weather_Temp_Max 		"Température maxi [%.1f °C]"	<temperature> (Weather_Chart)
+Number Weather_Temp_Min 		"Température mini [%.1f °C]"	<temperature> (Weather_Chart)
+Number Weather_Chart_Period		"Période de tracé des temperatures"
+DateTime Weather_LastUpdate		"Dernière valeur [%1$ta %1$tR]"	<clock>
+
+Group Humidity_Chart												(HumidityWidget)
+Number Weather_Humidity 		"Humidité [%.1f %%]"	<drop> (Weather_Chart,Humidity_Chart) { mqtt="<[localbroker:/humidite:state:default]"}
+Number Humidity_Max 			"Humidité maxi [%.1f %%]"	<drop> (Humidity_Chart)
+Number Humidity_Min 			"Humidité mini [%.1f %%]"	<drop> (Humidity_Chart)
+Number Humidity_Chart_Period	"Période de tracé de l'humidité"
+DateTime Humidity_LastUpdate	"Dernière valeur [%1$ta %1$tR]"	<clock>
+
+/* NTP binding demo item */
+DateTime	Date			"Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar>	{ ntp="Europe/Paris:fr_FR" }
+String 		Presence 		"Présence [MAP(fr.map):%s]"						<presence>  { mqtt="<[localbroker:/presence:state:default]"}
+//String	 	Fan				"Etat ventilateur [%s]"				<fan>   	{ mqtt=">[localbroker:/fan:command:OFF:0],>[localbroker:/fan:command:ON:1]"}
+//Number	 	Fan2			"Etat ventilateur [%s]"				<fan>   	{ mqtt=">[localbroker:/fan:state:default]"}
+Number	 	Fan2			"Etat ventilateur [MAP(fr.map):%s]"		<fan>   	{ mqtt=">[localbroker:/fan:command:1:1],>[localbroker:/fan:command:2:2],>[localbroker:/fan:command:0:0]"}
+//Switch Fan2 {mqtt=">[localbroker:/fan:command:Level1:1],>[localbroker:/fan:command:OFF:0]"}
