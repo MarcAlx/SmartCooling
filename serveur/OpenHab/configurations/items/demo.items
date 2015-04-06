@@ -20,7 +20,4 @@ DateTime Humidity_LastUpdate	"Dernière valeur [%1$ta %1$tR]"	<clock>
 /* NTP binding demo item */
 DateTime	Date			"Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar>	{ ntp="Europe/Paris:fr_FR" }
 String 		Presence 		"Présence [MAP(fr.map):%s]"						<presence>  { mqtt="<[localbroker:/presence:state:default]"}
-//String	 	Fan				"Etat ventilateur [%s]"				<fan>   	{ mqtt=">[localbroker:/fan:command:OFF:0],>[localbroker:/fan:command:ON:1]"}
-//Number	 	Fan2			"Etat ventilateur [%s]"				<fan>   	{ mqtt=">[localbroker:/fan:state:default]"}
 Number	 	Fan2			"Etat ventilateur [MAP(fr.map):%s]"		<fan>   	{ mqtt=">[localbroker:/fan:command:1:1],>[localbroker:/fan:command:2:2],>[localbroker:/fan:command:0:0]"}
-//Switch Fan2 {mqtt=">[localbroker:/fan:command:Level1:1],>[localbroker:/fan:command:OFF:0]"}
