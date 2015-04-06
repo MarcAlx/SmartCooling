@@ -19,11 +19,11 @@
 
 ##Montage
 - Architecture globale
-- ![alt text](images/IMG_0017.jpg "Architecture globale")
+- ![alt text](images/IMG_0017.JPG "Architecture globale")
 - Carte arduino + capteur
-- ![alt text](images/IMG_0015.jpg "Carte arduino + capteur")
+- ![alt text](images/IMG_0015.JPG "Carte arduino + capteur")
 - Carte galileo + controle du ventilateur
-- ![alt text](images/IMG_0018.jpg "Carte galileo + controle du ventilateur")
+- ![alt text](images/IMG_0018.JPG "Carte galileo + controle du ventilateur")
 - Schemas éléctrique
 - ![alt text](images/SchemaElec.png "Carte galileo + controle du ventilateur") 
 
