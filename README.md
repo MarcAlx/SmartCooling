@@ -71,7 +71,7 @@ Les capacités d’OpenHab sont :
 - Interface Nodered utilisé pour la visualisation des flux
 - ![NodeRed](images/NodeRed.png "NodeRed")
 - Script python
-- ![Script python](images/Python.jpg "Script python")
-- ![Script python 2](images/Python2.jpg "Script python 2")
+- ![Script python](images/Python.png "Script python")
+- ![Script python 2](images/Python2.png "Script python 2")
 
 
