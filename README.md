@@ -25,7 +25,7 @@
 - Carte galileo + controle du ventilateur
 - ![alt text](images/IMG_0018.jpg "Carte galileo + controle du ventilateur")
 - Schemas éléctrique
-- ![alt text](images/TODO.jpg "Carte galileo + controle du ventilateur") 
+- ![alt text](images/SchemaElec.png "Carte galileo + controle du ventilateur") 
 
 ##Prérequis logiciels
 - Le programme python de controle du ventilateur
