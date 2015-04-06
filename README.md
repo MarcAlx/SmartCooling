@@ -61,15 +61,17 @@ Les capacités d’OpenHab sont :
 
 ##Screenshots
 - Interface générale d'OpenHab
-- ![alt text](images/TODO.jpg "Screenshot main menu OpenHab")
+- ![Screenshot main menu OpenHab](images/OpenHab.png "Screenshot main menu OpenHab")
+- Interface générale d'OpenHab (Greent)
+- ![Screenshot main menu OpenHab (Greent)](images/OpenHabGreent.png "Screenshot main menu OpenHab (Greent)")
 - Interface de temperature d'OpenHab
-- ![alt text](images/TODO.jpg "Screenshot temperature + graphique Openhab")
+- ![Screenshot temperature + graphique Openhab](images/OpenHabTemperatures.png "Screenshot temperature + graphique Openhab")
 - Interface d'humidité d'OpenHab
-- ![alt text](images/TODO.jpg "Screenshot humidite + graphique Openhab") 
+- ![Screenshot humidite + graphique Openhab](images/OpenHabHumidite.png "Screenshot humidite + graphique Openhab") 
 - Interface Nodered utilisé pour la visualisation des flux
-- ![alt text](images/nodered.jpg "nodered")
+- ![NodeRed](images/NodeRed.png "NodeRed")
 - Script python
-- ![alt text](images/IMG_0009B.jpg "Script python")
-- ![alt text](images/python.jpg "Script python 2")
+- ![Script python](images/Python.jpg "Script python")
+- ![Script python 2](images/Python2.jpg "Script python 2")
 
 
